@@ -1,0 +1,34 @@
+# Bulk URL Opener
+
+Bulk URL Opener is a free online tool that helps users open multiple URLs instantly.
+
+Website:
+https://urlopener.site/
+
+About:
+Bulk URL Opener allows users to paste multiple website links and open them together in separate browser tabs.
+
+Features:
+
+- Open multiple URLs with one click
+- Free browser-based URL opener
+- No software installation required
+- No signup required
+- Useful for SEO professionals, developers, marketers and researchers
+
+Main Pages:
+
+Homepage:
+https://urlopener.site/
+
+About:
+https://urlopener.site/about
+
+Contact:
+https://urlopener.site/contact
+
+Blog:
+https://urlopener.site/blog
+
+FAQ:
+https://urlopener.site/faq
