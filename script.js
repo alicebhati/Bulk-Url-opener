@@ -129,13 +129,7 @@ updateStats
 
 
 
-
-
-
-
-
-
-// OPEN ALL URLS (OPTIMIZED)
+// OPEN ALL URLS
 
 openBtn.addEventListener(
 "click",
@@ -148,33 +142,33 @@ function(){
 
     if(urls.length === 0){
 
+
         showMessage(
         "Please enter valid URLs"
         );
 
+
         return;
+
 
     }
 
 
 
-    // Open URLs in original input order
-    urls.forEach((url)=>{
-
-        let newWindow = window.open(
-            url,
-            "_blank"
-        );
+    urls.forEach((url,index)=>{
 
 
-        if(!newWindow){
+        setTimeout(()=>{
 
-            console.log(
-            "Popup blocked:",
-            url
+
+            window.open(
+                url,
+                "_blank"
             );
 
-        }
+
+        },index*300);
+
 
 
     });
@@ -190,9 +184,11 @@ function(){
     );
 
 
+
 }
 
 );
+
 
 
 
@@ -227,12 +223,6 @@ function(){
 }
 
 );
-
-
-
-
-
-
 
 
 
