@@ -139,38 +139,52 @@ Bulk URL Opener Tool | Open Multiple Links at Once
 <link rel="stylesheet" href="style.css">
 
 <script type="application/ld+json">
-
 {
 "@context":"https://schema.org",
+"@graph":[
+
+{
+"@type":"Organization",
+"name":"Bulk URL Opener",
+"url":"https://urlopener.site/",
+"logo":"https://urlopener.site/favicon.png",
+"email":"info@urlopener.site"
+},
+
+{
+"@type":"WebSite",
+"name":"Bulk URL Opener",
+"url":"https://urlopener.site/"
+},
+
+{
 "@type":"FAQPage",
 "mainEntity":[
+
 {
 "@type":"Question",
 "name":"What is Bulk URL Opener?",
 "acceptedAnswer":{
 "@type":"Answer",
-"text":"Bulk URL Opener is a free online tool that helps users open multiple URLs at once in their browser."
+"text":"Bulk URL Opener allows users to open multiple URLs quickly and efficiently."
 }
 },
+
 {
 "@type":"Question",
-"name":"Is Bulk URL Opener free to use?",
+"name":"How does Bulk URL Opener work?",
 "acceptedAnswer":{
 "@type":"Answer",
-"text":"Yes, Bulk URL Opener is completely free to use without registration."
+"text":"Users can enter multiple URLs and open them together using the tool."
 }
-},
-{
-"@type":"Question",
-"name":"Are my URLs stored?",
-"acceptedAnswer":{
-"@type":"Answer",
-"text":"No, URLs are processed directly in your browser and are not stored."
-}
-}
-]
 }
 
+]
+
+}
+
+]
+}
 </script>
 
 </head>
@@ -766,15 +780,7 @@ Click the Open All button and launch your URLs instantly.
 </section>
 
 
-
-
-
-
-
-
-
 <!-- FOOTER -->
-
 
 <footer>
 
@@ -817,10 +823,6 @@ Terms
 
 
 
-<script src="script.js"></script>
-
-
 </body>
-
 
 </html>
