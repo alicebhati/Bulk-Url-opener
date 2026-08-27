@@ -6820,3 +6820,677 @@ grid-template-columns:1fr;
 }
 
 }
+
+/* =====================================
+   ONLY TOOL BOX SIZE FIX
+===================================== */
+
+
+/* Main Tool Box */
+
+.tool-card{
+
+    max-width:1100px;
+
+    margin:0 auto;
+
+    padding:35px;
+
+}
+
+
+
+/* URL Input Box */
+
+#urlTextarea{
+
+    width:100%;
+
+    min-height:220px;
+
+    max-height:350px;
+
+    font-size:16px;
+
+    padding:20px;
+
+}
+
+
+
+
+
+/* Tool Heading Spacing */
+
+.tool-heading{
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+/* Buttons Size */
+
+.buttons button{
+
+    height:52px;
+
+}
+
+
+
+
+
+/* Stats Box */
+
+.stats{
+
+    margin-top:25px;
+
+}
+
+
+
+
+
+/* Keep rest of website normal */
+
+.hero,
+.seo-content,
+.features,
+.steps,
+footer{
+
+    max-width:none;
+
+}
+
+/* =====================================
+   SEO CONTENT SECTION DESIGN
+===================================== */
+
+
+.seo-content{
+
+    max-width:1100px;
+
+    margin:80px auto;
+
+    padding:50px 60px;
+
+    background:#ffffff;
+
+    border-radius:28px;
+
+    box-shadow:
+
+    0 20px 60px rgba(0,102,255,0.10);
+
+    border:1px solid #e5edff;
+
+}
+
+
+
+
+
+.seo-content h2{
+
+    font-size:34px;
+
+    line-height:1.3;
+
+    color:#071426;
+
+    margin-top:35px;
+
+    margin-bottom:18px;
+
+    position:relative;
+
+}
+
+
+
+
+
+/* First heading spacing */
+
+.seo-content h2:first-child{
+
+    margin-top:0;
+
+}
+
+
+
+
+
+.seo-content h2::before{
+
+    content:"";
+
+    display:inline-block;
+
+    width:8px;
+
+    height:35px;
+
+    background:
+
+    linear-gradient(
+    180deg,
+    #0066ff,
+    #00a3ff
+    );
+
+    border-radius:10px;
+
+    margin-right:15px;
+
+    vertical-align:middle;
+
+}
+
+
+
+
+
+.seo-content p{
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    color:#475569;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+.seo-content ul{
+
+    margin-top:20px;
+
+    padding-left:0;
+
+    list-style:none;
+
+}
+
+
+
+
+
+.seo-content li{
+
+    background:#f5f9ff;
+
+    margin-bottom:12px;
+
+    padding:15px 20px;
+
+    border-radius:14px;
+
+    color:#334155;
+
+    font-size:16px;
+
+    border-left:4px solid #0066ff;
+
+    transition:.3s;
+
+}
+
+
+
+
+
+.seo-content li:hover{
+
+    transform:translateX(8px);
+
+    background:#eaf3ff;
+
+}
+
+
+
+
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+
+.seo-content{
+
+    padding:30px 25px;
+
+    margin:40px 15px;
+
+}
+
+
+
+.seo-content h2{
+
+    font-size:26px;
+
+}
+
+
+
+.seo-content p{
+
+    font-size:15px;
+
+}
+
+
+}
+
+/* =====================================
+   BULK URL OPENER COMPACT TOOL FIX
+===================================== */
+
+
+/* Main Tool Card Size */
+
+.tool-card{
+
+    max-width:900px !important;
+
+    margin:40px auto !important;
+
+    padding:30px !important;
+
+}
+
+
+
+/* Tool Header */
+
+.tool-title h2{
+
+    font-size:28px !important;
+
+}
+
+
+.tool-title p{
+
+    font-size:15px !important;
+
+}
+
+
+
+/* Rocket Icon */
+
+.tool-title span{
+
+    font-size:35px !important;
+
+}
+
+
+
+
+/* URL TEXT AREA */
+
+#urlTextarea{
+
+    height:220px !important;
+
+    min-height:220px !important;
+
+    max-height:220px !important;
+
+    padding:18px !important;
+
+    font-size:15px !important;
+
+}
+
+
+
+
+
+/* Buttons */
+
+.buttons{
+
+    margin-top:20px !important;
+
+    gap:12px !important;
+
+}
+
+
+
+.buttons button{
+
+    height:48px !important;
+
+    font-size:15px !important;
+
+}
+
+
+
+
+
+/* Stats */
+
+.stats{
+
+    margin-top:20px !important;
+
+}
+
+
+
+.stats div{
+
+    padding:15px !important;
+
+}
+
+
+
+.stats strong{
+
+    font-size:25px !important;
+
+}
+
+
+
+
+
+/* Header Size Keep Normal */
+
+.header-box{
+
+    max-width:1200px !important;
+
+}
+
+
+
+/* Desktop */
+
+@media(min-width:1200px){
+
+
+.tool-card{
+
+    max-width:950px !important;
+
+}
+
+
+}
+
+/* =====================================
+   PREMIUM UI IMPROVEMENTS
+===================================== */
+
+
+/* Smooth Page Feel */
+
+body{
+    scroll-behavior:smooth;
+}
+
+
+
+/* Tool Card Premium Shadow */
+
+.tool-card{
+
+    transition:all .3s ease;
+
+}
+
+
+.tool-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:
+    0 25px 60px rgba(0,102,255,.15);
+
+}
+
+
+
+
+
+/* Input Focus Better */
+
+#urlTextarea{
+
+    transition:.3s ease;
+
+}
+
+
+
+#urlTextarea:focus{
+
+    background:#ffffff;
+
+    border-color:#0066ff;
+
+    box-shadow:
+    0 0 0 4px rgba(0,102,255,.12);
+
+}
+
+
+
+
+
+
+
+/* Button Animation */
+
+#openBtn,
+#clearBtn{
+
+    transition:.3s ease;
+
+}
+
+
+
+#openBtn:hover,
+#clearBtn:hover{
+
+    transform:translateY(-3px);
+
+}
+
+
+
+
+
+
+/* Stats Cards Upgrade */
+
+.stats div{
+
+    transition:.3s ease;
+
+    border:1px solid #e5edff;
+
+}
+
+
+
+.stats div:hover{
+
+    background:#eef6ff;
+
+    transform:translateY(-5px);
+
+}
+
+
+
+
+
+
+/* Feature Cards */
+
+.feature-grid div,
+.work-card{
+
+    transition:.3s ease;
+
+}
+
+
+
+.feature-grid div:hover,
+.work-card:hover{
+
+    border-color:#0066ff;
+
+    box-shadow:
+    0 15px 40px rgba(0,102,255,.12);
+
+}
+
+
+
+
+
+
+/* Hero Background Effect */
+
+.hero{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+
+
+.hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:500px;
+
+    height:500px;
+
+    background:
+
+    radial-gradient(
+    circle,
+    rgba(0,102,255,.15),
+    transparent 70%
+    );
+
+    top:-150px;
+
+    right:-150px;
+
+    z-index:-1;
+
+}
+
+
+
+
+
+/* Heading Highlight */
+
+.hero h1 span{
+
+    background:
+
+    linear-gradient(
+    90deg,
+    #0066ff,
+    #00a3ff
+    );
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+}
+
+
+
+
+
+
+
+/* Better Links */
+
+a{
+
+    transition:.3s ease;
+
+}
+
+
+
+
+
+
+
+/* Toast Message Better */
+
+.toast{
+
+    background:#071426 !important;
+
+    color:white !important;
+
+    padding:15px 25px !important;
+
+    border-radius:50px !important;
+
+    box-shadow:
+
+    0 10px 30px rgba(0,0,0,.2);
+
+}
+
+
+
+
+
+
+
+/* Mobile Improvement */
+
+@media(max-width:768px){
+
+
+.tool-card:hover{
+
+    transform:none;
+
+}
+
+
+}
